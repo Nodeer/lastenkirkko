@@ -1,1 +1,5 @@
-angular.module('lastenkirkko', []);
+angular.module('lastenkirkko', [
+    'lastenkirkko.templates',
+    'mm.foundation',
+    'LocalStorageModule'
+]);

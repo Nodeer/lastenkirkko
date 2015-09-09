@@ -1,0 +1,17 @@
+<div class="login-wrapper">
+    <form novalidate name="loginForm" ng-submit="login()">
+        <label>
+            Hei, kirjoita tähän nimesi
+            <input id="loginForm__name"
+                   type="text"
+                   name="name"
+                   ng-model="user.name"
+                   ng-model-options="{ updateOn: 'blur' }"
+                   required>
+        </label>
+        <small class="error" ng-show="(loginForm.$submitted || loginForm.name.$touched) && loginForm.name.$error.required">
+            <span ng-show="loginForm.name.$error.required">Kirjoitathan nimesi.</span>
+        </small>
+        <button id="submit" type="submit" class="button" ng-disabled="!canSubmit()">Login</button>
+    </form>
+</div>

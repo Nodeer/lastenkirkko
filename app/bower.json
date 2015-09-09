@@ -2,6 +2,10 @@
   "name": "lastenkirkko-app",
   "private": "true",
   "dependencies": {
-    "angular": "~1.4.5"
+    "angular": "~1.4.5",
+    "ngDialog": "~0.5.1",
+    "foundation": "~5.5.2",
+    "angular-foundation": "~0.6.0",
+    "angular-local-storage": "~0.2.2"
   }
 }
