@@ -222,6 +222,161 @@
   -ms-transform-origin: 50% 50%;
 }
 
+@mixin churchbell{
+  animation: churchbell ease-in 4s;
+  animation-iteration-count: 1;
+  transform-origin: 0px 0px;
+  -webkit-animation: churchbell ease-in 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 0% 0%;
+  -moz-animation: churchbell ease-in 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 100% 0%;
+  -o-animation: churchbell ease-in 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 100% 0%;
+  -ms-animation: churchbell ease-in 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 100% 0%;
+}
+@mixin churchbellinner{
+  animation: churchbellinner ease-in 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 0%;
+  -webkit-animation: churchbellinner ease-in 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 0%;
+  -moz-animation: churchbellinner ease-in 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 0%;
+  -o-animation: churchbellinner ease-in 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 0%;
+  -ms-animation: churchbellinner ease-in 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 0%;
+}
+
+@keyframes churchbellinner{
+  0% {
+    transform:  translate(0px,-5px)  ;
+  }
+  57% {
+    transform:  translate(29px,-18px)  ;
+  }
+  100% {
+    transform:  translate(0px,-5px)  ;
+  }
+}
+
+@-moz-keyframes churchbellinner{
+  0% {
+    -moz-transform:  translate(0px,75px)  ;
+  }
+  57% {
+    -moz-transform:  translate(24px,65px)  ;
+  }
+  100% {
+    -moz-transform:  translate(24px,65px)  ;
+  }
+}
+
+@-webkit-keyframes churchbellinner {
+  0% {
+    -webkit-transform:  translate(0px,75px)  ;
+  }
+  57% {
+    -webkit-transform:  translate(24px,65px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(24px,65px)  ;
+  }
+}
+
+@-o-keyframes churchbellinner {
+  0% {
+    -o-transform:  translate(0px,75px)  ;
+  }
+  57% {
+    -o-transform:  translate(24px,65px)  ;
+  }
+  100% {
+    -o-transform:  translate(24px,65px)  ;
+  }
+}
+
+@-ms-keyframes churchbellinner {
+  0% {
+    -ms-transform:  translate(0px,75px)  ;
+  }
+  57% {
+    -ms-transform:  translate(24px,65px)  ;
+  }
+  100% {
+    -ms-transform:  translate(24px,65px)  ;
+  }
+}
+
+@keyframes churchbell{
+  0% {
+    transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+  50% {
+    transform:  translate(0px,0px)  rotate(-25deg) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+}
+
+@-moz-keyframes churchbell{
+  0% {
+    -moz-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+  50% {
+    -moz-transform:  translate(0px,0px)  rotate(-25deg) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+}
+
+@-webkit-keyframes churchbell {
+  0% {
+    -webkit-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,0px)  rotate(-25deg) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+}
+
+@-o-keyframes churchbell {
+  0% {
+    -o-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+  50% {
+    -o-transform:  translate(0px,0px)  rotate(-25deg) ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+}
+
+@-ms-keyframes churchbell {
+  0% {
+    -ms-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+  50% {
+    -ms-transform:  translate(0px,0px)  rotate(-25deg) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  rotate(25deg) ;
+  }
+}
+
 @keyframes yawn{
   0% {
     transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
@@ -2476,7 +2631,7 @@
 }
 
 .st66 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .st67 {
@@ -2628,7 +2783,7 @@
 
 // Max width of content
 .width-wrapper {
-  max-width: 940px;
+  max-width: 100%;
   @include centerer;
 }
 body {
@@ -2845,7 +3000,14 @@ body {
 
   }
 }
+.churchbell {
+  @include churchbell;
 
+}
+
+.churchbellinner {
+  @include churchbellinner;
+}
 .eye {
   @include eyeblink;
 }

@@ -1,7 +1,9 @@
+<div class="modal-wrapper">
+<div ng-include="'components/main/closemodal.html'"></div>
 <div class="login-wrapper">
     <form novalidate name="loginForm" ng-submit="login()">
         <label>
-            Hei, kirjoita tähän nimesi
+            Mikä sinun nimesi on?
             <input id="loginForm__name"
                    type="text"
                    name="name"
@@ -12,6 +14,7 @@
         <small class="error" ng-show="(loginForm.$submitted || loginForm.name.$touched) && loginForm.name.$error.required">
             <span ng-show="loginForm.name.$error.required">Kirjoitathan nimesi.</span>
         </small>
-        <button id="submit" type="submit" class="button" ng-disabled="!canSubmit()">Login</button>
+        <button id="submit" type="submit" class="button" >OK</button>
     </form>
+</div>
 </div>

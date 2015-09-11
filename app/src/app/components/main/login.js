@@ -1,5 +1,5 @@
 angular.module('lastenkirkko')
-    .controller('LoginController', function ($scope, StorageService) {
+    .controller('LoginController', function ($scope, StorageService, $modalInstance) {
         $scope.user = {};
 
         /**
@@ -8,7 +8,19 @@ angular.module('lastenkirkko')
         $scope.login = function () {
             if ($scope.user.name) {
                 StorageService.set('name', $scope.user.name);
+                $modalInstance.dismiss('Logged In');
+                console.log(this);
+
             }
+        };
+
+        $scope.logout = function () {
+            StorageService.remove('name');
+            delete $scope.user.name;
+        };
+
+        $scope.cancel = function () {
+            $modalInstance.dismiss('cancel');
         };
 
 
