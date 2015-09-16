@@ -1,33 +1,16 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 angular.module('lastenkirkko')
-    .controller('DialogController', function($scope, $log, runningNumber, $modalInstance) {
+    .controller('DialogController', function ($scope, $log, runningNumber, $modalInstance) {
         $scope.runningNumber = runningNumber;
         $scope.cancel = function () {
             $modalInstance.dismiss('cancel');
         };
-
     })
+    .controller('MainController', function ($scope, $log, $modal, StorageService) {
+        $scope.username = null;
 
-    .controller('MainController', function($scope, $log, $modal, StorageService) {
-        $scope.openModal = function(runningNumber) {
+        $scope.openModal = function (runningNumber) {
             $modal.open({
-                templateUrl: 'components/content/' +runningNumber + '.html',
+                templateUrl: 'components/content/' + runningNumber + '.html',
                 controller: 'DialogController',
                 windowClass: 'content-modal',
                 resolve: {
@@ -36,29 +19,35 @@ angular.module('lastenkirkko')
                     }
                 }
             });
-
         };
 
-        $scope.username = StorageService.get('name');
-
-        $scope.logout = function () {
-            StorageService.remove('name');
-            delete $scope.user;
-            $modal.open({
+        function showLogin() {
+            var modalInstance = $modal.open({
                 templateUrl: 'components/main/login.html',
-                controller: 'LoginController'
+                controller: 'LoginController',
+                windowClass: 'login-modal'
 
             });
-        };
 
-
-        if (!StorageService.get('name')) {
-            $modal.open({
-                templateUrl: 'components/main/login.html',
-                controller: 'LoginController'
+            modalInstance.result.then(function (name) {
+                $scope.username = name;
+            }, function () {
 
             });
         }
 
+        $scope.login = function () {
+            showLogin();
+        };
+
+        $scope.logout = function () {
+            StorageService.remove('name');
+            $scope.username = null;
+        };
+
+        var name = StorageService.get('name');
+        if (name) {
+            $scope.username = name;
+        }
     });
 

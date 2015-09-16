@@ -8,9 +8,8 @@ angular.module('lastenkirkko')
         $scope.login = function () {
             if ($scope.user.name) {
                 StorageService.set('name', $scope.user.name);
-                $modalInstance.dismiss('Logged In');
-                console.log(this);
 
+                $modalInstance.close($scope.user.name);
             }
         };
 

@@ -1,9 +1,11 @@
-<div class="modal-wrapper">
-<div ng-include="'components/main/closemodal.html'"></div>
+<div class="login-modal-wrapper">
+    <img class="show-for-small-up" src="../assets/images/vilhelmiina.png"/>
+
+    <div ng-include="'components/main/closemodal.html'"></div>
 <div class="login-wrapper">
     <form novalidate name="loginForm" ng-submit="login()">
         <label>
-            Mikä sinun nimesi on?
+            Hei! Kirjoita nimesi tähän.
             <input id="loginForm__name"
                    type="text"
                    name="name"
@@ -11,10 +13,8 @@
                    ng-model-options="{ updateOn: 'blur' }"
                    required>
         </label>
-        <small class="error" ng-show="(loginForm.$submitted || loginForm.name.$touched) && loginForm.name.$error.required">
-            <span ng-show="loginForm.name.$error.required">Kirjoitathan nimesi.</span>
-        </small>
-        <button id="submit" type="submit" class="button" >OK</button>
+
+        <button id="submit" type="submit" class="button" >  &nbsp</button>
     </form>
 </div>
 </div>
