@@ -162,7 +162,6 @@
 
 .st39 {
   fill: #8EC100;
-;
 }
 
 .st40 {
@@ -225,6 +224,11 @@
 
 .st54 {
   clip-path: url(#SVGID_13_);
+  .st4 {
+    clip-path: url(#SVGID_13_);
+
+  }
+
 }
 
 .st55 {
@@ -428,15 +432,27 @@
   @include centerer;
 }
 body {
+
   background-color: rgb(172, 245, 255);
   position: relative;
+    width: 200%;
+    margin-left: -50%;
+
+
 }
 
+html, button, a, input, label, p, div, body {
+  cursor: url(../assets/images/cursor.png)0 0,default !important;
+
+
+}
 #Layer_1 {
   position: relative;
 }
 
-
+.church {
+  position: relative;
+}
 .churchbell {
   @include churchbell;
 
@@ -482,6 +498,8 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background-color: #00ADEE;
+  font-size: 21px;
   @media (max-width: 764px) {
     height: 5px;
     top: 10px;
@@ -493,10 +511,14 @@ body {
     font-size: 8px;
   }
 }
+.login-form {
+  width: 100%;
+  text-align: center;
+}
 
 
 .login-name  {
-  margin-bottom: 0px;
+  margin-bottom: 6px;
  /* position: absolute;
   top: 10px;
   left: 32%;
@@ -511,6 +533,8 @@ body {
   max-width: 30%;
   height: auto;*/
   text-align: center;
+  color: #666666;
+  font-size: 30px;
   @media (max-width: 764px) {
    height: 10px;
     left: 5px;
@@ -539,10 +563,11 @@ body {
       float: left;
       color: #00ADEE;
       clear: both;
+      font-size: 30px;
     }
     .login-wrapper {
       position: absolute;
-      left: 35%;
+      left: 40%;
       top: 30%;
     }
     form {
@@ -550,12 +575,14 @@ body {
       text-align: center;
       #loginForm__name {
         float: left;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 45px;
+        margin-top: 18px;
       }
     }
     #submit {
-      float: left;
-      margin-left: 30%;
+
       background-color: #8EC100;
       background-image: url('../assets/images/arrow.png');
       background-position: 50% 50%;
@@ -579,11 +606,12 @@ body {
   }
 
   .login-modal {
-    max-width: 50%;
+    max-width: 25%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 4px solid #8EC100;
+    min-height: 420px;
   }
 }
 
@@ -627,18 +655,28 @@ body {
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: 80% 80%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        margin-top: 15px;
       }
     }
 
   }
 
   .login-modal {
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     max-width: 100%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 4px solid #8EC100;
+    @media #{$small-only} {
+      width: 50%;
+      margin-left: 25%;
+    }
+
   }
 }
 .userwrapper {
@@ -646,4 +684,58 @@ body {
   width: 60%;
   text-align: center;
   padding-top: 20px;
+}
+
+
+
+@-moz-document url-prefix() {
+body{
+
+  .sun, .moon, .star, .church, .cart, .house, .wheel, .churchbell, .churchbellinner, .ellipse-button, .yawn, .ellipse-button:hover, .green-bloon, .eye, .blink, .bloon-wrapper {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+
+  }
+  .thunder {
+    .st36, .st35 {
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -o-transition: none !important;
+      -ms-transition: none !important;
+      transition: none !important;
+      animation: none !important;
+      transform: none !important;
+
+    }
+  }
+  .smoke3 {
+    display: none !important;
+
+     }
+  .green-bloon-wrapper, .second-bloon, .bloon-wrapper,  {
+    .st4 {
+      display: none;
+    }
+  }
+
+}
+}
+
+.footer-text {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 86%;
+  color: #00ADEE;
+  font-family: 'Open Sans';
+  .footer-title {
+    clear: both;
+    font-family: 'Open Sans';
+    font-size: 23px;
+  }
 }

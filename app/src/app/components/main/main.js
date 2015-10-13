@@ -43,6 +43,7 @@ angular.module('lastenkirkko')
         $scope.logout = function () {
             StorageService.remove('name');
             $scope.username = null;
+            showLogin();
         };
 
         var name = StorageService.get('name');
