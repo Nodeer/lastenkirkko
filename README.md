@@ -16,4 +16,4 @@ Do the following to set up your environment:
 
 - If you get an error related to mismatching vbhost versions install the [vbguest plugin](https://github.com/dotless-de/vagrant-vbguest) by running `vagrant plugin install vagrant-vbguest` and try again
 
-If you run into other issues contact `@christoffer.niska` on Slack
+If you run into other issues contact `@christoffer.niska` on Slack (@email)
