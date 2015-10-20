@@ -1,0 +1,6 @@
+.vagrant
+app/bower_components
+app/node_modules
+app/public
+app/.env
+*.log

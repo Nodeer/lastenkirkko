@@ -1,0 +1,20 @@
+<div class="login-modal-wrapper">
+    <img class="show-for-small-up" src="../assets/images/vilhelmiina.png"/>
+
+    <div ng-include="'components/main/closemodal.html'"></div>
+<div class="login-wrapper">
+    <form class="login-form" novalidate name="loginForm" ng-submit="login()">
+        <label>
+            Hei! Kirjoita nimesi tähän.
+            <input id="loginForm__name"
+                   type="text"
+                   name="name"
+                   ng-model="user.name"
+                   ng-model-options="{ updateOn: 'blur' }"
+                   required>
+        </label>
+
+        <button id="submit" type="submit" class="button" >  &nbsp</button>
+    </form>
+</div>
+</div>

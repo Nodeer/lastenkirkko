@@ -1,0 +1,22 @@
+{
+  "name": "lastenkirkko-app",
+  "scripts": {
+    "start": "gulp",
+    "test": "npm run build && gulp test",
+    "lint": "gulp lint",
+    "build": "npm run build:dev",
+    "build:dev": "npm install && gulp build:dev",
+    "build:prod": "npm install && gulp build:prod",
+    "deploy": "npm install && gulp lint && gulp test && gulp build:prod && gulp zip && gulp upload",
+    "deploy:skip-tests": "npm install && gulp lint && gulp build:prod && gulp zip && gulp upload",
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "angular-gulp-config": "0.0.6",
+    "bower": "^1.3.3",
+    "dotenv": "^1.1.0",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3",
+    "require-dir": "^0.3.0"
+  }
+}
