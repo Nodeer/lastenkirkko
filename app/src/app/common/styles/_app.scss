@@ -464,6 +464,17 @@ body {
   transform-origin: 50% 0%;
   ms-transform-origin: 50% 0%;
   -webkit-transform-origin: 50% 0%;
+
+  @media (min-width: 764px) {
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    transform: scale(.7);
+  }
+  @media (min-width: 1200px) {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 html, button, a, input, label, p, div, body {
@@ -711,7 +722,9 @@ html, button, a, input, label, p, div, body {
   padding-top: 20px;
 }
 
-
+.ng-scope {
+  z-index: 8;
+}
 
 @-moz-document url-prefix() {
 body{
@@ -752,15 +765,22 @@ body{
 }
 
 .footer-text {
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);
+  ms-transform: scale(.5);
+  transform-origin: 50% 0%;
+  ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
   width: 100%;
   text-align: center;
-  font-size: 6px;
+  font-size: 12px;
   margin-top: 86%;
   color: #00ADEE;
   font-family: 'Open Sans';
   .footer-title {
     clear: both;
     font-family: 'Open Sans';
-    font-size: 17px;
+    font-size: 34px;
   }
 }
