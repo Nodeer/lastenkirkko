@@ -288,7 +288,7 @@ fill: #fff;
 }
 
 .st66 {
-  font-size: 12px;
+  font-size: 6px;
 }
 
 .st67 {
@@ -296,7 +296,7 @@ fill: #fff;
 }
 
 .st68 {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .st69 {
@@ -446,8 +446,10 @@ fill: #fff;
 body {
   background-color: rgb(189, 229, 255);
   position: relative;
-    width: 200%;
-    margin-left: -50%;
+  -webkit-transform: scale(2.0);
+  -moz-transform: scale(2.0);
+  transform: scale(2.0);
+  transform-origin: 50% 0;
 
 
 }
@@ -510,7 +512,7 @@ html, button, a, input, label, p, div, body {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: #00ADEE;
-  font-size: 21px;
+  font-size: 11px;
   @media (max-width: 764px) {
     height: 5px;
     top: 10px;
@@ -545,7 +547,7 @@ html, button, a, input, label, p, div, body {
   height: auto;*/
   text-align: center;
   color: #666666;
-  font-size: 30px;
+  font-size: 15px;
   @media (max-width: 764px) {
    height: 10px;
     left: 5px;
@@ -574,7 +576,7 @@ html, button, a, input, label, p, div, body {
       float: left;
       color: #00ADEE;
       clear: both;
-      font-size: 30px;
+      font-size: 15px;
     }
     .login-wrapper {
       position: absolute;
@@ -740,13 +742,13 @@ body{
 .footer-text {
   width: 100%;
   text-align: center;
-  font-size: 16px;
+  font-size: 6px;
   margin-top: 86%;
   color: #00ADEE;
   font-family: 'Open Sans';
   .footer-title {
     clear: both;
     font-family: 'Open Sans';
-    font-size: 23px;
+    font-size: 17px;
   }
 }

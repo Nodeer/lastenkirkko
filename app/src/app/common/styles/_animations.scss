@@ -2694,7 +2694,8 @@
        -ms-animation-iteration-count: infinite;
        -ms-transform-origin: 50% 50%;
      }
-  &.eights {animation: snowflake ease-in-out 18s;
+  &.eights {
+    animation: snowflake ease-in-out 18s;
     animation-iteration-count: infinite;
     transform-origin: 50% 50%;
     -webkit-animation: snowflake ease-in-out 18s;
@@ -2710,9 +2711,20 @@
     -ms-transform-origin: 50% 50%;
   }
   &.nineth {
-    -webkit-animation: snowflake ease-in-out 73s;
-    -moz-animation: snowflake ease-in-out 73s;
-    -ms-animation: snowflake ease-in-out 73s;
+    animation: snowflake ease-in-out 19s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: snowflake ease-in-out 19s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: snowflake ease-in-out 19s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation: snowflake ease-in-out 19s;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: snowflake ease-in-out 19s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
   }
 }
 
@@ -2886,7 +2898,7 @@
 @keyframes snowfallAnimation{
   0% {
     opacity:0;
-    transform:  scaleY(0.00) ;
+    transform:  scaleY(0.50) ;
   }
   100% {
     opacity:1;
@@ -2897,7 +2909,7 @@
 @-moz-keyframes snowfallAnimation{
   0% {
     opacity:0;
-    -moz-transform:  scaleY(0.00) ;
+    -moz-transform:  scaleY(0.50) ;
   }
   100% {
     opacity:1;
@@ -2908,7 +2920,7 @@
 @-webkit-keyframes snowfallAnimation {
   0% {
     opacity:0;
-    -webkit-transform:  scaleY(0.00) ;
+    -webkit-transform:  scaleY(0.50) ;
   }
   100% {
     opacity:1;
@@ -2919,7 +2931,7 @@
 @-o-keyframes snowfallAnimation {
   0% {
     opacity:0;
-    -o-transform:  scaleY(0.00) ;
+    -o-transform:  scaleY(0.50) ;
   }
   100% {
     opacity:1;
@@ -2930,7 +2942,7 @@
 @-ms-keyframes snowfallAnimation {
   0% {
     opacity:0;
-    -ms-transform:  scaleY(0.00) ;
+    -ms-transform:  scaleY(0.50) ;
   }
   100% {
     opacity:1;
