@@ -3,3 +3,6 @@ angular.module('lastenkirkko', [
     'mm.foundation',
     'LocalStorageModule'
 ]);
+
+
+angular.module('myApp', ['ngAudio']);
