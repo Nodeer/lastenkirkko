@@ -21,6 +21,7 @@ angular.module('lastenkirkko')
             });
         };
 
+
         function showLogin() {
             var modalInstance = $modal.open({
                 templateUrl: 'components/main/login.html',
