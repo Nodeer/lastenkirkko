@@ -435,8 +435,8 @@ body {
 
   background-color: rgb(172, 245, 255);
   position: relative;
-    width: 200%;
-    margin-left: -50%;
+  width: 200%;
+  margin-left: -50%;
 
 
 }
@@ -453,6 +453,7 @@ html, button, a, input, label, p, div, body {
 .church {
   position: relative;
 }
+
 .churchbell {
   @include churchbell;
 
@@ -720,6 +721,7 @@ body{
   .green-bloon-wrapper, .second-bloon, .bloon-wrapper,  {
     .st4 {
       display: none;
+      color: red;
     }
   }
 
@@ -738,4 +740,7 @@ body{
     font-family: 'Open Sans';
     font-size: 23px;
   }
+}
+body {
+  display: none;
 }
