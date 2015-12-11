@@ -1,9 +1,0 @@
-{
-  "app": "lastenkirkko",
-  "tests": [
-    "src/**/*-spec.js"
-  ],
-  "browserSync": {
-    "port": 8006
-  }
-}
