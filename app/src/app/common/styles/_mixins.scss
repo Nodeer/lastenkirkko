@@ -1,0 +1,12 @@
+@mixin scale($value) {
+  -webkit-transform: scale($value);
+  -moz-transform: scale($value);
+  transform: scale($value);
+  ms-transform: scale($value);
+}
+
+@mixin transform-origin($x,$y) {
+  transform-origin: $x $y;
+  ms-transform-origin: $x $y;
+  -webkit-transform-origin: $x $y;
+}
