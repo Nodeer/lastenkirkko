@@ -10,7 +10,7 @@
 @mixin delay2 {
   -o-animation-delay: 2s;
   -ms-animation-delay: 2s;
-  -mox-animation-delay: 2s;
+  -moz-animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
 
@@ -18,7 +18,7 @@
 @mixin delay4 {
   -o-animation-delay: 4s;
   -ms-animation-delay: 4s;
-  -mox-animation-delay: 4s;
+  -moz-animation-delay: 4s;
   -webkit-animation-delay: 4s;
 }
 
@@ -2473,7 +2473,7 @@
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
 }
 
@@ -2486,7 +2486,7 @@
   animation-delay: 3s;
   -o-animation-delay: 3s;
   -ms-animation-delay: 3s;
-  -mox-animation-delay: 3s;
+  -moz-animation-delay: 3s;
 }
 .star {
   @include star;
@@ -2494,55 +2494,55 @@
     animation-delay: 1s;
     -o-animation-delay: 1s;
     -ms-animation-delay: 1s;
-    -mox-animation-delay: 1s;
+    -moz-animation-delay: 1s;
   }
   &.star2 {
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
   &.star3 {
     animation-delay: 2s;
     -o-animation-delay: 2s;
     -ms-animation-delay: 2s;
-    -mox-animation-delay: 2s;
+    -moz-animation-delay: 2s;
   }
   &.star4 {
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
   &.star5 {
     animation-delay: 4s;
     -o-animation-delay: 4s;
     -ms-animation-delay: 4s;
-    -mox-animation-delay: 4s;
+    -moz-animation-delay: 4s;
   }
   &.star6 {
     animation-delay: 0s;
     -o-animation-delay: 0s;
     -ms-animation-delay: 0s;
-    -mox-animation-delay: 0s;
+    -moz-animation-delay: 0s;
   }
   &.star7 {
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
   &.star8 {
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
   &.star9 {
     animation-delay: 3s;
     -o-animation-delay: 3s;
     -ms-animation-delay: 3s;
-    -mox-animation-delay: 3s;
+    -moz-animation-delay: 3s;
   }
 }
 
@@ -2555,7 +2555,7 @@
   animation-delay: 2s;
   -o-animation-delay: 2s;
   -ms-animation-delay: 2s;
-  -mox-animation-delay: 2s;
+  -moz-animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
 .wheel {
