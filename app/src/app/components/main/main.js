@@ -52,4 +52,3 @@ angular.module('lastenkirkko')
             $scope.username = name;
         }
     });
-

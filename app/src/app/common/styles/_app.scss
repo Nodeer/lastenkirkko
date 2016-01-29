@@ -842,3 +842,25 @@ body{
 .unzoom {
   height: 100%;
 }
+
+.tuuli:hover {
+  transform: translate(0px, -25px);
+}
+.toimi:hover {
+  transform: translate(0px, -25px);
+  -webkit-transform: translate(0px, -25px);
+  -o-transform: translate(0px, -25px);
+  -moz-transform: translate(0px, -25px);
+}
+.toivo:hover {
+  transform: translate(0px, -25px);
+  -webkit-transform: translate(0px, -25px);
+  -o-transform: translate(0px, -25px);
+  -moz-transform: translate(0px, -25px);
+ }
+.taito:hover {
+  transform: translate(0px, -25px);
+  -webkit-transform: translate(0px, -25px);
+  -o-transform: translate(0px, -25px);
+  -moz-transform: translate(0px, -25px);
+}
