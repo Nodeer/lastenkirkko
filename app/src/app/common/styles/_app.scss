@@ -786,6 +786,8 @@ body{
 }
 
 .footer-text {
+  display: none;
+
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
   transform: scale(.5);
