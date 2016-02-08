@@ -1,7 +1,9 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .footer-text {
-    display: inline;
+    display: block;
     height: 0;
     opacity: 0;
+    position: relative;
+    z-index: -1;
   }
 }
