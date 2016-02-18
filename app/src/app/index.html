@@ -26,6 +26,16 @@
         ga('send', 'pageview');
 
     </script>
+    <script type="text/javascript">
+        function playSound(el,soundfile) {
+            if (el.mp3) {
+                if(el.mp3.paused) el.mp3.play();
+                else el.mp3.pause();
+            } else {
+                el.mp3 = new Audio(soundfile);
+                el.mp3.play();
+            }
+        } </script>
 </head>
 <body>
 <div class="content-wrapper">
