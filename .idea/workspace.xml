@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2c6b1f-0362-46f8-984f-0c3807aa4f9c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/content/10.html" afterPath="$PROJECT_DIR$/app/src/app/components/content/10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/content/11.html" afterPath="$PROJECT_DIR$/app/src/app/components/content/11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/content/13.html" afterPath="$PROJECT_DIR$/app/src/app/components/content/13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/content/23.html" afterPath="$PROJECT_DIR$/app/src/app/components/content/23.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/common/styles/_app.scss" afterPath="$PROJECT_DIR$/app/src/app/common/styles/_app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/index.html" afterPath="$PROJECT_DIR$/app/src/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/main/main.html" afterPath="$PROJECT_DIR$/app/src/app/components/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app/components/main/main.js" afterPath="$PROJECT_DIR$/app/src/app/components/main/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lastenkirkko.iws" />
@@ -28,12 +30,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6544811">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/app/components/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17175573">
+              <caret line="913" column="87" selection-start-line="913" selection-start-column="87" selection-end-line="913" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#14;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#15;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#16;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#52;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#a#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/app/components/content/14.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,30 +76,19 @@
       <file leaf-file-name="_app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/app/common/styles/_app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-363.45834">
-              <caret line="890" column="6" selection-start-line="890" selection-start-column="6" selection-end-line="890" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.235294">
+              <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/app/components/main/main.html">
+      <file leaf-file-name="11.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/app/components/content/11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-56.0">
-              <caret line="1058" column="10" selection-start-line="1058" selection-start-column="10" selection-end-line="1058" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#2;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#3;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#4;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#40;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#image#0;n#a#0;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,31 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/app/components/content/16.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="13.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/app/components/content/13.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/app/components/content/12.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -155,26 +159,26 @@
         <option value="$PROJECT_DIR$/app/src/app/common/styles/_animations.scss" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/24.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/4.html" />
-        <option value="$PROJECT_DIR$/app/src/app/components/content/23.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/19.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/7.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/21.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/6.html" />
-        <option value="$PROJECT_DIR$/app/src/app/components/content/11.html" />
-        <option value="$PROJECT_DIR$/app/src/app/components/content/10.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/12.html" />
-        <option value="$PROJECT_DIR$/app/src/app/components/content/13.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/16.html" />
-        <option value="$PROJECT_DIR$/app/src/app/components/content/14.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/17.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/25.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/1.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/22.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/content/20.html" />
         <option value="$PROJECT_DIR$/app/src/app/components/main/main.js" />
+        <option value="$PROJECT_DIR$/app/src/app/index.html" />
+        <option value="$PROJECT_DIR$/app/src/app/components/content/13.html" />
+        <option value="$PROJECT_DIR$/app/src/app/components/content/23.html" />
+        <option value="$PROJECT_DIR$/app/src/app/components/content/10.html" />
+        <option value="$PROJECT_DIR$/app/src/app/components/content/11.html" />
+        <option value="$PROJECT_DIR$/app/src/app/components/content/14.html" />
         <option value="$PROJECT_DIR$/app/src/app/common/styles/_app.scss" />
         <option value="$PROJECT_DIR$/app/src/app/components/main/main.html" />
-        <option value="$PROJECT_DIR$/app/src/app/index.html" />
       </list>
     </option>
   </component>
@@ -187,10 +191,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="131" />
-    <option name="width" value="1859" />
-    <option name="height" value="969" />
+    <option name="x" value="99" />
+    <option name="y" value="422" />
+    <option name="width" value="1618" />
+    <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,7 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -466,6 +469,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,29 +528,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="131" width="1859" height="969" extended-state="0" />
-    <editor active="false" />
+    <frame x="99" y="422" width="1618" height="934" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21301775" sideWeight="0.8244445" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21301775" sideWeight="0.17555556" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2447466" sideWeight="0.783815" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2447466" sideWeight="0.21618497" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16411379" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16411379" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -577,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="470" column="1" selection-start-line="426" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,11 +594,11 @@
             <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#2;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#3;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#4;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#40;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#image#0;n#a#0;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#14;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#15;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#16;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#52;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#a#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -827,20 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/app/components/content/17.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -862,26 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/app/components/content/12.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,14 +853,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/22.html">
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -909,7 +886,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/20.html">
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/11.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
@@ -925,38 +918,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app/components/content/14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/app/common/styles/_app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-363.45834">
-          <caret line="890" column="6" selection-start-line="890" selection-start-column="6" selection-end-line="890" selection-end-column="6" />
+        <state vertical-scroll-proportion="-3.235294">
+          <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/app/components/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-56.0">
-          <caret line="1058" column="10" selection-start-line="1058" selection-start-column="10" selection-end-line="1058" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.17175573">
+          <caret line="913" column="87" selection-start-line="913" selection-start-column="87" selection-end-line="913" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#feFlood#0;n#filter#0;n#defs#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#image#0;n#g#0;n#mask#0;n#g#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#2;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#3;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#4;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#40;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#image#0;n#a#0;n#g#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#14;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#15;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#16;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#1;n#g#52;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#a#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6544811">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
