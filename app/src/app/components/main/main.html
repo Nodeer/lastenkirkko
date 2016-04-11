@@ -997,7 +997,8 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 			c27.7,1,57.8-3.2,89.4-12.5c55.4-16.3,106.3-46,130.3-66.7c6.8-5.9,18.4-23.1,20.1-72.6c1.3-38-3.8-79.3-7.5-109.5
 			c-0.6-4.9-1.2-9.5-1.7-13.7c-3.1-26.3-12.6-82.9-24-135.8c-20.4-94.4-28.9-104.4-29.4-105.1L1542.9,549.9z"/>
 	</g>
-	<g class="tuuli" onmouseup="playSound(this, '../assets/sounds/Tuuli_fraasi_2_valmis.mp3');">
+	<!--<g class="tuuli" onmouseup="playSound(this, '../assets/sounds/Tuuli_fraasi_2_valmis.mp3');">-->
+	<g class="tuuli" data-ng-click="animateTuuli(this, '../assets/sounds/Tuuli_fraasi_2_valmis.mp3')" ng-class="{ active: tuuliActive }">
 		<circle class="st42" cx="1368.2" cy="1063.8" r="13.7"/>
 		<circle class="st42" cx="1352.1" cy="1079.3" r="13.7"/>
 		<circle class="st42" cx="1291.8" cy="1070.6" r="13.7"/>
@@ -1036,7 +1037,7 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 			c2.3-0.1,5.3,0.1,5.3,0.1V1103.8z"/>
 		<path class="st43" d="M1282,1006.4c0,0,2.6,47.2,3.9,53.6c1.2,6.4,36.9,25.4,42.2,25.8c5.4,0.4,37.4-12.4,39.5-17.1
 			s11.3-63,11.3-63l-55.3-33.9L1282,1006.4z"/>
-		<path class="st49" d="M1329.7,1079.3c-2.4-0.7-3.7,0.9-7,0c-3.3-0.9-27.4-19.1-30.2-23.5c-2.3-3.5-4.7-40.4-5.6-54.2l-5.7,4.7
+		<path class="st49 shadow" d="M1329.7,1079.3c-2.4-0.7-3.7,0.9-7,0c-3.3-0.9-27.4-19.1-30.2-23.5c-2.3-3.5-4.7-40.4-5.6-54.2l-5.7,4.7
 			c0,0,2.6,47.2,3.9,53.6c1.2,6.4,36.9,25.4,42.2,25.8c1.4,0.1,4.5-0.7,8.4-1.9C1333.3,1081.7,1330.8,1079.6,1329.7,1079.3z"/>
 		<circle class="eye" cx="1340.6" cy="1033.4" r="7.3"/>
 		<circle class="st4 eye" cx="1342.7" cy="1029.1" r="4.3"/>
@@ -1058,6 +1059,7 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 		<circle class="st42" cx="1355.3" cy="985.5" r="25"/>
 		<polygon class="st41" points="1353.4,987.7 1335.4,983.8 1344.3,964.7 1358.8,976 		"/>
 		<polygon class="st41" points="1357.9,975.6 1375.9,979.4 1367,998.5 1352.4,987.2 		"/>
+		<ellipse class="mouth-anim" cx="1319.8" cy="1066" rx="9.4" ry="5.6" />
 	<path class="st71" d="M1312.1,1064.7c2.4,5.4,8.7,7.8,14.1,5.4">
 	</path>
 	</g>
@@ -1754,7 +1756,8 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 <polygon class="st4" fill="#FFFFFF" points="1190.458,673.684 1209.542,686.325 1190.458,698.967 "/>
 	</g>
 
-	<g class="toivo" onmouseup="playSound(this, '../assets/sounds/Toivo_fraasi_2_valmis.mp3');">
+	<!--<g class="toivo" onmouseup="playSound(this, '../assets/sounds/Toivo_fraasi_2_valmis.mp3');">-->
+	<g class="toivo" data-ng-click="animateToivo(this, '../assets/sounds/Toivo_fraasi_2_valmis.mp3')" ng-class="{ active: toivoActive }">
 		<g>
 		<circle class="st43" cx="1130" cy="1317.5" r="14.9"/>
 		<circle class="st16" cx="1130" cy="1317.2" r="9.6"/>
@@ -1806,8 +1809,8 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 		<circle class="eye delay2" cx="1084.7" cy="1303.8" r="6.8"/>
 		<circle class="st4 eye delay2" cx="1086.7" cy="1299.8" r="4"/>
 		<circle class="st74 yawn" cx="1079.4" cy="1332" r="3.3"/>
-		<polygon class="st4" points="1082.6,1291.1 1083.9,1284.4 1070.4,1293.9 		"/>
-		<polygon class="st4" points="1106.7,1293.7 1105.4,1287 1118.9,1296.5 		"/>
+		<polygon class="st4 left-eyebrow" points="1082.6,1291.1 1083.9,1284.4 1070.4,1293.9 		"/>
+		<polygon class="st4 right-eyebrow" points="1106.7,1293.7 1105.4,1287 1118.9,1296.5 		"/>
 		<polygon class="st40" points="1051,1295.1 1040.4,1291.7 1040.4,1280.3 1027.5,1262.8 1046.6,1242.7 1058.5,1223.2 1102.2,1215.1
 			1126.4,1208.3 1113.7,1201.3 1102.5,1176.1 1108.9,1149 1112.5,1171.4 1134.4,1185.6 1154.5,1194.7 1169.3,1215.1 1151.1,1228
 			1158.1,1246.8 1151.1,1259.4 1165.9,1278.4 1137,1295.1 1138.2,1285.6 1105.1,1272.3 1063.8,1276.3 1051.8,1281.2 		"/>
@@ -1827,7 +1830,9 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 			c-18.6,0-33.7,15.1-33.7,33.7c0,1.4,0.1,2.7,0.3,4C983.7,1254.6,979.5,1261.5,979.1,1269.4z"/>
 	</g>
 	<g class="dude">
-		<g class="taito" onmouseup="playSound(this, '../assets/sounds/Taito_fraasi_2_valmis.mp3');">
+
+		<!--<g class="taito" onmouseup="playSound(this, '../assets/sounds/Taito_fraasi_2_valmis.mp3');">-->
+		<g class="taito" data-ng-click="animateTaito(this, '../assets/sounds/Taito_fraasi_2_valmis.mp3')" ng-class="{ active: taitoActive }">
 			<g>
 		<circle class="st43" cx="1364.5" cy="1717.8" r="9.1"/>
 		<circle class="st16" cx="1364.4" cy="1717.7" r="5.8"/>
@@ -1894,11 +1899,11 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 			<path class="st47" d="M1353.3,1803.6l0.4-0.1c1.6-0.3,3.1,0.8,3.3,2.3l0.1,0.6C1356.4,1804.9,1355,1803.9,1353.3,1803.6z"/>
 		</g>
 		<g>
-			<polygon class="st79" points="1310.3,1698.4 1313.2,1692.2 1297.8,1698.1 			"/>
-			<polygon class="st80" points="1310,1697 1312.9,1690.8 1297.5,1696.8 			"/>
+			<polygon class="st79 left-eyebrow" points="1310.3,1698.4 1313.2,1692.2 1297.8,1698.1 			"/>
+			<polygon class="st80 left-eyebrow" points="1310,1697 1312.9,1690.8 1297.5,1696.8 			"/>
 			<g>
-				<polygon class="st79" points="1338.6,1694.7 1334.3,1689.4 1350.7,1691.3 				"/>
-				<polygon class="st80" points="1339.8,1693.4 1335.5,1688.2 1351.9,1690.1 				"/>
+				<polygon class="st79 right-eyebrow" points="1338.6,1694.7 1334.3,1689.4 1350.7,1691.3 				"/>
+				<polygon class="st80 right-eyebrow" points="1339.8,1693.4 1335.5,1688.2 1351.9,1690.1 				"/>
 			</g>
 				<line class="st78" x1="1322.1" y1="1715.5" x2="1328.4" y2="1714.4"/>
 		<line class="st81" x1="1296.4" y1="1720.1" x2="1277.7" y2="1723.4"/>
@@ -1956,7 +1961,9 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 			C1049.1,761.9,1047.1,764,1044.5,764z M1075.2,764c-2.5,0-4.6-2.1-4.6-4.6c0-2.5,2.1-4.6,4.6-4.6c2.5,0,4.6,2.1,4.6,4.6
 			C1079.8,761.9,1077.7,764,1075.2,764z"/>
 	</g>-->
-	<g class="toimi" onmouseup="playSound(this, '../assets/sounds/Toimi_fraasi2_valmis.mp3');">
+
+	<!--<g class="toimi" data-ng-click="animateFace()" ng-class="{ active: isActive }" onmouseup="playSound(this, '../assets/sounds/Toimi_fraasi2_valmis.mp3');">-->
+	<g class="toimi" data-ng-click="animateToimi(this, '../assets/sounds/Toimi_fraasi2_valmis.mp3')" ng-class="{ active: toimiActive }">
 		<path class="st83" d="M1027.3,700.4h-16v-4.9c0-1.1,0.9-2,2-2h12c1.1,0,2,0.9,2,2V700.4z"/>
 		<path class="st4" d="M1016,693.5h-2.6c-1.1,0-2,0.9-2,2v2.5h4.6V693.5z"/>
 		<g>
@@ -2006,11 +2013,11 @@ AQEGPwAzc//Z" transform="matrix(1 0 0 1 101.1641 711.0606)">
 		<circle cx="1021.5" class="eye delay4" cy="598.1" r="7"/>
 		<circle class="eye delay4 st4" cx="1023.6" cy="593.9" r="4.2"/>
 		<ellipse class="st74" cx="1019.5" cy="621.1" rx="12.4" ry="9.6"/>
-		<polygon class="st89" points="1015.4,586.9 1019.5,581 1002.6,584.4 		"/>
-		<polygon class="st90" points="1015.3,585.5 1019.4,579.6 1002.5,583 		"/>
+		<polygon class="st89 left-eyebrow" points="1015.4,586.9 1019.5,581 1002.6,584.4 		"/>
+		<polygon class="st90 left-eyebrow" points="1015.3,585.5 1019.4,579.6 1002.5,583 		"/>
 		<g>
-			<polygon class="st89" points="1045.1,588.2 1041.5,582 1058,586.9 			"/>
-			<polygon class="st90" points="1046.5,587.2 1043,581 1059.4,585.9 			"/>
+			<polygon class="st89 right-eyebrow" points="1045.1,588.2 1041.5,582 1058,586.9 			"/>
+			<polygon class="st90 right-eyebrow" points="1046.5,587.2 1043,581 1059.4,585.9 			"/>
 		</g>
 		<circle class="st84" cx="1011" cy="606.6" r="1.4"/>
 		<circle class="st84" cx="1005.9" cy="602" r="1.4"/>
