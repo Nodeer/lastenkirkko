@@ -40,6 +40,9 @@ module.exports = {
   images: [
     include('src/assets/images/**/*.{gif,jpg,png}')
   ],
+  sounds: [
+    include('src/assets/sounds/**/*.{wav,mp3}')
+  ],
   sass: [
     include('src/**/*.scss')
   ],
