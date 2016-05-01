@@ -1,3 +1,49 @@
+%flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($flex) {
+  -webkit-box-flex: $flex;
+  -webkit-flex: $flex;
+  -ms-flex: $flex;
+  flex: $flex;
+}
+
+@mixin flex-direction($value) {
+  -webkit-flex-direction: $value;
+  -moz-flex-direction: $value;
+  flex-direction: $value;
+}
+
+@mixin flex-wrap($value) {
+  -webkit-flex-wrap: $value;
+  -moz-flex-wrap: $value;
+  flex-wrap: $value;
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before{
+    display: block;
+    content: " ";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > iframe,
+  > img {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 @mixin scale($value) {
   -webkit-transform: scale($value);
   -moz-transform: scale($value);
@@ -9,4 +55,23 @@
   transform-origin: $x $y;
   ms-transform-origin: $x $y;
   -webkit-transform-origin: $x $y;
+}
+
+@mixin transform($value) {
+  -webkit-transform: $value;
+  -moz-transform: $value;
+  -ms-transform: $value;
+  -o-transform: $value;
+  transform: $value;
+}
+
+@mixin animation($value) {
+  -webkit-animation: $value;
+  -o-animation: $value;
+  animation: $value;
+}
+
+@mixin transition($value...) {
+  -webkit-transition: $value;
+  transition: $value;
 }

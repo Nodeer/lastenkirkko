@@ -1,13 +1,62 @@
 angular.module('lastenkirkko')
-    .controller('DialogController', function ($scope, $log, runningNumber, $modalInstance) {
+    .controller('DialogController', function ($scope, $log, $sce, runningNumber, contentType, modalData, $modalInstance) {
         $scope.runningNumber = runningNumber;
+        $scope.contentType = contentType;
+        $scope.modalData = modalData;
+        $scope.activeContentUrl = $scope.modalData.activeContentUrl;
+
+        if ($scope.contentType === 'game') {
+            $scope.gameContent = true;
+        } else {
+            $scope.gameContent = false;
+        }
+
+
         $scope.cancel = function () {
             $modalInstance.dismiss('cancel');
         };
+
+        $scope.trustSrc = function(src) {
+            return $sce.trustAsResourceUrl(src);
+        };
+
+        $scope.changeActiveContent = function(src) {
+            $scope.activeContentUrl = src;
+        };
+
     })
-    .controller('MainController', function ($scope, $log, $modal, StorageService, $timeout) {
+    .controller('MainController', function ($scope, $log, $http, $modal, StorageService, $timeout) {
         $scope.username = null;
         $scope.isActive = false;
+
+
+        // Get data for modals
+        $http.get('assets/data/data.json')
+        .then(function(res) {
+            $scope.data = res.data;
+
+        }, function(err) {
+            $log.debug(err);
+        });
+
+        $scope.openModal = function (runningNumber, contentType) {
+            $modal.open({
+                templateUrl: 'components/main/modal.html',
+                controller: 'DialogController',
+                windowClass: contentType,
+                resolve: {
+                    runningNumber: function () {
+                        return runningNumber;
+                    },
+                    contentType: function() {
+                        return contentType;
+                    },
+                    modalData: function() {
+                        return $scope.data[runningNumber];
+                    }
+                }
+            });
+        };
 
         $scope.animateToimi = function (el, soundfile) {
             $scope.toimiActive = $scope.toimiActive ? false : true;
@@ -67,19 +116,6 @@ angular.module('lastenkirkko')
                 pauseSound(el);
                 $timeout.cancel($scope.taitoTimeout);
             }
-        };
-
-        $scope.openModal = function (runningNumber) {
-            $modal.open({
-                templateUrl: 'components/content/' + runningNumber + '.html',
-                controller: 'DialogController',
-                windowClass: 'content-modal',
-                resolve: {
-                    runningNumber: function () {
-                        return runningNumber;
-                    }
-                }
-            });
         };
 
         function pauseSound(el) {

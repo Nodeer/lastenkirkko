@@ -6,4 +6,16 @@
     position: relative;
     z-index: -1;
   }
+
+  .reveal-modal,
+  .login-modal {
+
+    .more-content,
+    .watch-next {
+
+      &-container {
+        @include flex(1 50%);
+      }
+    }
+  }
 }

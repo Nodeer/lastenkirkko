@@ -1,6 +1,11 @@
 @import "../../bower_components/foundation/scss/foundation";
+
+// FontAwesome
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+
 @import "common/styles/mixins";
 @import "common/styles/animations";
 @import "common/styles/talk-animations";
 @import "common/styles/app";
+@import "common/styles/modal";
 @import "common/styles/ie";

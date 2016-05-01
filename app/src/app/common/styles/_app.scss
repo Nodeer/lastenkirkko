@@ -452,30 +452,6 @@ body {
   @include transform-origin(50%, 0%);
   @include scale(2);
 }
-.iframe-wrapper {
-  @include transform-origin(top, left);
-  @include scale(.3);
-  width: 333%;
-  height: 333%;
-
-  @media #{$medium-up} {
-    @include scale(.55);
-    width: 182%;
-    height: 182%;
-  }
-
-  @media #{$large-up} {
-    @include scale(.8);
-    width: 125%;
-    height: 125%;
-  }
-
-  @media #{$xlarge-up} {
-    @include scale(1);
-    width: 100%;
-    height: 100%;
-  }
-}
 
 .userwrapper {
   -webkit-transform: scale(.5);
@@ -819,40 +795,6 @@ body{
     font-family: 'Open Sans';
     font-size: 34px;
   }
-}
-
-.content-modal, .login-modal {
-  @include scale(1);
-  top: 15% !important;
-  height: 70%;
-  //width: 50%;
-  width: 95%;
-  padding: 1%;
-  //margin-left: 25%;
-  margin-left: 2.5%;
-
-  @media #{$small-up} {
-    margin-left: 5%;
-    width: 90%;
-  }
-
-  @media #{$medium-up} {
-    margin-left: 12.5%;
-    width: 75%;
-  }
-  @media #{$large-up} {
-    margin-left: 17.5%;
-    width: 65%;
-  }
-}
-.reveal-modal {
-  @media #{$small-only} {
-    min-height: 0;
-  }
-}
-
-.reveal-modal > :last-child {
-  height: 100%;
 }
 .unzoom {
   height: 100%;

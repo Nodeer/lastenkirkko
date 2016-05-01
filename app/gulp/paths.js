@@ -27,6 +27,9 @@ module.exports = {
     exclude('src/app/common/spec/**/*'), // ignore test helper files
     exclude('**/*-spec.js') // ignore test files
   ],
+  data: [
+    include('src/assets/data/*')
+  ],
   fonts: [
     include('src/assets/fonts/**/*.{eot,svg,ttf,woff,woff2,otf}')
   ],
