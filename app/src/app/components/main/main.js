@@ -1,16 +1,9 @@
 angular.module('lastenkirkko')
-    .controller('DialogController', function ($scope, $log, $sce, runningNumber, contentType, modalData, $modalInstance) {
+    .controller('DialogController', function ($scope, $log, $sce, runningNumber, modalData, $modalInstance) {
         $scope.runningNumber = runningNumber;
-        $scope.contentType = contentType;
         $scope.modalData = modalData;
         $scope.activeContentUrl = $scope.modalData.activeContentUrl;
-
-        if ($scope.contentType === 'game') {
-            $scope.gameContent = true;
-        } else {
-            $scope.gameContent = false;
-        }
-
+        $scope.activeContentType = $scope.modalData.activeContentType;
 
         $scope.cancel = function () {
             $modalInstance.dismiss('cancel');
@@ -20,8 +13,9 @@ angular.module('lastenkirkko')
             return $sce.trustAsResourceUrl(src);
         };
 
-        $scope.changeActiveContent = function(src) {
+        $scope.changeActiveContent = function(src, type) {
             $scope.activeContentUrl = src;
+            $scope.activeContentType = type;
         };
 
     })
@@ -39,17 +33,13 @@ angular.module('lastenkirkko')
             $log.debug(err);
         });
 
-        $scope.openModal = function (runningNumber, contentType) {
+        $scope.openModal = function (runningNumber) {
             $modal.open({
                 templateUrl: 'components/main/modal.html',
                 controller: 'DialogController',
-                windowClass: contentType,
                 resolve: {
                     runningNumber: function () {
                         return runningNumber;
-                    },
-                    contentType: function() {
-                        return contentType;
                     },
                     modalData: function() {
                         return $scope.data[runningNumber];

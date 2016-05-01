@@ -38,9 +38,9 @@
     width: 70vw;
   }
 
-  &.game {
+  .iframe-wrapper {
 
-    .iframe-wrapper {
+    &.game {
       @include transform-origin(0, 0);
       @include scale(.283);
       height: 800px;
@@ -75,7 +75,22 @@
       }
     }
 
-    .more-content {
+    &.video {
+      @include aspect-ratio(16, 9);
+      @include transform-origin(top, left);
+      @include scale(1);
+      box-shadow: 0 1px 3px 0 rgba(#111, .35);
+      clear: both;
+      margin-bottom: 25px;
+    }
+  }
+
+  .more-content {
+    @extend %flexbox;
+    @include flex-wrap(wrap);
+    align-items: center;
+
+    &.game {
       margin-top: -525px;
 
       @media screen and (min-width: 480px) {
@@ -94,23 +109,6 @@
         margin-top: 65px;
       }
     }
-  }
-
-  &.video {
-
-    .iframe-wrapper {
-      @include aspect-ratio(16, 9);
-      @include transform-origin(top, left);
-      @include scale(1);
-      box-shadow: 0 1px 3px 0 rgba(#111, .35);
-      clear: both;
-      margin-bottom: 25px;
-    }
-  }
-
-  .more-content {
-    @extend %flexbox;
-    @include flex-wrap(wrap);
 
     &-container {
       @include flex(1);
@@ -124,7 +122,6 @@
         height: 130px;
         border-radius: 50%;
         border: 2px solid transparent;
-        //background: #E86642;
         background: #FFF;
         position: relative;
         box-shadow: 0 1px 3px 0 rgba(#000, .25);
@@ -165,16 +162,6 @@
           z-index: 0;
         }
       }
-    }
-  }
-
-  .watch-next {
-    @extend %flexbox;
-    @include flex-wrap(wrap);
-
-    &-container {
-      @include flex(1);
-      text-align: center;
 
       .watch-next-title {
         color: #444444;

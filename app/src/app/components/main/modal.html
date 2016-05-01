@@ -1,8 +1,9 @@
 <div ng-include="'components/main/closemodal.html'"></div>
-<div class="iframe-wrapper">
+<div class="iframe-wrapper {{activeContentType}}">
   <iframe ng-src="{{trustSrc(activeContentUrl)}}" frameborder="0" style="width:100%; height:100%;"></iframe>
 </div>
 
+<!--
 <div class="watch-next" ng-hide="gameContent">
   <div class="watch-next-container" ng-repeat="content in modalData.moreContent">
     <span class="watch-next-title">{{content.title}}</span>
@@ -11,14 +12,26 @@
     </div>
   </div>
 </div>
+-->
 
-<div class="more-content" ng-show="gameContent">
+<div class="more-content {{activeContentType}}">
   <div class="more-content-container" ng-repeat="content in modalData.moreContent">
-    <div class="more-content-button" data-ng-click="changeActiveContent(content.url)">
-      <span class="more-content-title">{{content.title}}</span>
-      <div class="spinnging-top">
-        <img src="../assets/images/spinning-top.png" alt="spinning top">
+
+    <div ng-if="content.type == 'game'">
+      <div class="more-content-button" data-ng-click="changeActiveContent(content.url, content.type)">
+        <span class="more-content-title">{{content.title}}</span>
+        <div class="spinnging-top">
+          <img src="../assets/images/spinning-top.png" alt="spinning top">
+        </div>
       </div>
     </div>
+
+    <div ng-if="content.type == 'video'">
+      <span class="watch-next-title">{{content.title}}</span>
+      <div class="thumb-container" data-ng-click="changeActiveContent(content.url, content.type)">
+        <img class="thumb-image" src="//i.ytimg.com/vi/{{content.id}}/hqdefault.jpg">
+      </div>
+    </div>
+
   </div>
 </div>

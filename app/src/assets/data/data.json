@@ -1,149 +1,167 @@
 {
   "1": {
     "activeContentUrl": "http://www.mauthor.com/embed/5043521218674688",
+    "activeContentType": "game",
     "moreContent": {
       "one": {
         "url": "http://www.mauthor.com/embed/5043521218674688",
-        "title": "Ratkaise palapeli"
+        "title": "Ratkaise palapeli",
+        "type": "game"
       },
       "two": {
         "url": "http://www.mauthor.com/embed/5781171147898880",
-        "title": "Väritä mosaiikkikuvan palaset"
+        "title": "Väritä mosaiikkikuvan palaset",
+        "type": "game"
+      },
+      "three": {
+        "id": "CdKVfVk7PVk",
+        "url": "https://www.youtube.com/embed/CdKVfVk7PVk",
+        "title": "Lastenkirkko: Päkälammas laskee mäkeä",
+        "type": "video"
       }
     }
   },
   "2": {
     "activeContentUrl": "http://lastenkirkko.fi/aasipeli/",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "3": {
     "activeContentUrl": "http://www.mauthor.com/embed/6411539923337216",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "4": {
     "activeContentUrl": "http://lastenkirkko.fi/aasipeli",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "5": {
     "activeContentUrl": "https://www.youtube.com/embed/Q0KTvFI1a7U",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "6": {
     "activeContentUrl": "https://www.youtube.com/embed/SEFAoTUMb_c",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "7": {
     "activeContentUrl": "https://www.youtube.com/embed/pWacuGTvtns",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "8": {
     "activeContentUrl": "https://www.youtube.com/embed/dP6ibJSXZ-g",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "9": {
     "activeContentUrl": "http://www.mauthor.com/embed/4891553144766464",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "10": {
     "activeContentUrl": "https://www.youtube.com/embed/bkFBTWbcLoI",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "11": {
     "activeContentUrl": "https://www.youtube.com/embed/9rOttMTFPGA",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "12": {
     "activeContentUrl": "http://www.mauthor.com/embed/5744637802708992",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "13": {
     "activeContentUrl": "https://www.youtube.com/embed/KDJiyvL5--Y",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "14": {
     "activeContentUrl": "http://www.mauthor.com/embed/5867039757959168",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "15": {
     "activeContentUrl": "https://www.youtube.com/embed/kAFnc8B9vsk",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "16": {
     "activeContentUrl": "http://www.mauthor.com/embed/5020656180133888",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "17": {
     "activeContentUrl": "https://www.youtube.com/embed/h6lMf2jctww",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "18": {
     "activeContentUrl": "http://www.mauthor.com/embed/5867039757959168",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "19": {
     "activeContentUrl": "http://www.mauthor.com/embed/6687678134747136",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "20": {
     "activeContentUrl": "https://www.youtube.com/embed/wsbTyqDO8L0",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "21": {
     "activeContentUrl": "https://www.youtube.com/embed/AZdCnwlzXcA",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "22": {
     "activeContentUrl": "https://www.youtube.com/embed/4RvZCXxsLHM",
+    "activeContentType": "video",
     "moreContent": {
     }
   },
   "23": {
-    "activeContentUrl": "https://www.youtube.com/embed/CdKVfVk7PVk",
+    "activeContentUrl": "https://www.youtube.com/embed/qUein9343Ow",
+    "activeContentType": "video",
     "moreContent": {
-      "one": {
-        "id": "CdKVfVk7PVk",
-        "url": "https://www.youtube.com/embed/CdKVfVk7PVk",
-        "title": "Lastenkirkko: Päkälammas laskee mäkeä"
-      },
-      "two": {
-        "id": "pWacuGTvtns",
-        "url": "https://www.youtube.com/embed/pWacuGTvtns",
-        "title": "Miksi Jakke Jääkarhu on tänään niin iloinen?"
-      },
-      "three": {
-        "id": "AZdCnwlzXcA",
-        "url": "https://www.youtube.com/embed/AZdCnwlzXcA",
-        "title": "Pyhis: Tunteet ja hippa"
-      }
     }
   },
   "24": {
     "activeContentUrl": "http://www.mauthor.com/embed/5781171147898880",
+    "activeContentType": "game",
     "moreContent": {
     }
   },
   "25": {
     "activeContentUrl": "https://www.youtube.com/embed/cgMx809d2wY",
+    "activeContentType": "video",
     "moreContent": {
     }
   }
