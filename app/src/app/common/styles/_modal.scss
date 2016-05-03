@@ -111,7 +111,8 @@
     }
 
     &-container {
-      @include flex(1);
+      @include flex(1 50%);
+      padding: 0 15px 15px;
       text-align: center;
 
       .more-content-button {
