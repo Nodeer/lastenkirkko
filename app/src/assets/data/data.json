@@ -12,12 +12,6 @@
         "url": "http://www.mauthor.com/embed/5781171147898880",
         "title": "Väritä mosaiikkikuvan palaset",
         "type": "game"
-      },
-      "three": {
-        "id": "CdKVfVk7PVk",
-        "url": "https://www.youtube.com/embed/CdKVfVk7PVk",
-        "title": "Lastenkirkko: Päkälammas laskee mäkeä",
-        "type": "video"
       }
     }
   },
@@ -52,9 +46,27 @@
     }
   },
   "7": {
-    "activeContentUrl": "https://www.youtube.com/embed/pWacuGTvtns",
+    "activeContentUrl": "https://www.youtube.com/embed/8PO6Ohnv5ZM",
     "activeContentType": "video",
     "moreContent": {
+      "one": {
+        "id": "4yejVixHfAg",
+        "url": "https://www.youtube.com/embed/4yejVixHfAg",
+        "title": "Osa 2: Jakke Jääkarhun tunteet väreinä",
+        "type": "video"
+      },
+      "two": {
+        "id": "pWacuGTvtns",
+        "url": "https://www.youtube.com/embed/pWacuGTvtns",
+        "title": "Osa 3: Miksi Jakke Jääkarhu on tänään niin iloinen?",
+        "type": "video"
+      },
+      "three": {
+        "id": "E1FiO2mNOks",
+        "url": "https://www.youtube.com/embed/E1FiO2mNOks",
+        "title": "Osa 4: Jakke yllätti Petterin. Miten?",
+        "type": "video"
+      }
     }
   },
   "8": {
